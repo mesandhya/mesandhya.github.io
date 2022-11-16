@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Nepal Election</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
+		<link rel="stylesheet" type="text/css" href="CSS/election.css?v=1.0.6"  />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	  <link rel="preconnect" href="https://fonts.googleapis.com">
+	  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+	<style>
+		@font-face {
+			font-family: 'Mukta';
+			src: url(https://fonts.gstatic.com/s/mukta/v13/iJWHBXyXfDDVXbEOjGmc8WD07oB-98o.woff2) format('woff2');
+			unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+		}
+		* :not(i) {
+			font-family: 'Mukta', sans-serif;
+		}
+	</style>
+  
+	<div class="">
+		<div class="top_nav">
+			<!-- <div class="year_div">
+					<div class="years">
+						<ul class="nav nav-pills">
+							<li class="active"><a data-toggle="pill" href="#year_2021">2017</a></li>
+							<li><a data-toggle="pill" href="#year_2022">2022</a></li>
+						</ul>
+					
+					</div>				
+			</div> -->
+			<div id="accordion" class="summary_div">
+				<div id="info_div" class="info_div">
+					
+				</div>
+				<div class="card">
+					<div class="card-header" id="headingOne">
+						<h5 style="margin: 0;">
+							<div  class="summaryTitle" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								<span id="summaryTitle"></span>
+								<span class="accicon"><i class="fas fa-angle-down rotate-icon"></i></span>
+							</div>
+						</h5>
+					</div>
+			
+					<div id="collapseOne" class="collapse " style="border-top: 1px solid #cccbcb;" aria-labelledby="headingOne" data-parent="#accordion">
+						<div class="card-body summary_body" id="summaryBody">
+							<p></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="regions_div"> 
+				<div class="region_menu">
+						<ul class="region_select_ul nav nav-tabs">
+								<li class="">
+										<div class="select-box">
+											<select id="provinceSelect">
+													<option value="" selected disabled hidden>प्रदेश</option>
+											</select>
+										</div>
+									</li>
+								<li class="">
+										<div class="select-box">
+											<select id="districtSelect" >
+													<option value="" selected disabled hidden>जिल्ला</option>
+												
+											</select>
+										</div>
+								</li>
+								<!-- <li class="">
+									<div class="select-box">
+										<select id="palikaSelect" >
+												<option value="" selected disabled hidden>पालिका</option>
+												<option value="Gaunpalika">गाउँपालिका</option>
+												<option value="Nagarpalika">नगरपालिका</option>
+												<option value="All">सबै</option>
+										</select>
+									</div>
+							</li> -->
+								<!-- <li class="">
+									<select class="form-control">
+											<option value="" selected disabled hidden>Parties</option>
+											<option >Party 1</option>
+											<option>Party 2</option>
+											<option>Party 3</option>
+									</select>
+										
+								</li> -->
+						</ul>
+				</div>
+				<div>
+					<p class="seperator">|</p>
+				</div>
+				<!-- <div class="filter_menu">
+					<ul class="nav nav-pills" id="categories_container">
+						<li>
+							<div class="select-box" >
+									<select id="filter_select" >
+											<option value="mayor_party" selected>दल </option>
+											<option value="mayor_margin">मतान्तर</option>
+											<option value="mayor_gender">लिङ्ग</option>
+											<option value="mayor_age">उमेर समूह </option>
+
+									</select>
+							</div>
+						</li>	
+					
+						<li class=""><a data-toggle="pill" href="#year_2021">Party</a></li>
+						<li><a data-toggle="pill" href="#year_2022" onclick="applyMapfilter('population')">Margin</a></li>
+						<li class=""><a data-toggle="pill" href="#year_2021" onclick="applyMapfilter('density')">Turnout</a></li>
+						<li class="">
+								<select class="form-control">
+										<option value="" selected disabled hidden>Categories</option>
+										<option >Party 1</option>
+										<option>Party 2</option>
+										<option>Party 3</option>
+								</select>
+						</li> 
+					</ul>
+					<div>
+						<button class="btn btn-primary reset_btn" id="reset">Reset</button>
+					</div>
+				</div> -->
+				<!-- <select id="filter_select" >
+						<option value="mayor_party" selected>दल </option> 
+						<option value="mayor_margin">मतान्तर</option>
+						<option value="mayor_gender">लिङ्ग</option>
+						<option value="mayor_age">उमेर समूह </option>
+				</select>  -->
+
+				<div class="filter_menu">
+						<ul class="nav nav-pills" >
+							<li class="">
+								<div class="select-btn" id=""> 
+									<button class="btn_filter_select" value="mayor_party">
+										दल 
+									</button>
+									<!-- <button class="btn_filter_select" value="mayor_margin">
+										मतान्तर 
+									</button> -->
+										<!-- <select id="filter_select" >दल
+												<option value="mayor_party" selected>दल </option> -->
+												<!-- <option value="mayor_margin">मतान्तर</option>
+												<option value="mayor_gender">लिङ्ग</option>
+												<option value="mayor_age">उमेर समूह </option>
+
+										</select> --> 
+								</div>
+							</li>	
+						
+							<!-- <li class=""><a data-toggle="pill" href="#year_2021">Party</a></li>
+							<li><a data-toggle="pill" href="#year_2022" onclick="applyMapfilter('population')">Margin</a></li>
+							<li class=""><a data-toggle="pill" href="#year_2021" onclick="applyMapfilter('density')">Turnout</a></li>
+							<li class="">
+									<select class="form-control">
+											<option value="" selected disabled hidden>Categories</option>
+											<option >Party 1</option>
+											<option>Party 2</option>
+											<option>Party 3</option>
+									</select>
+							</li> -->
+						</ul>
+						<ul class="nav nav-pills" id="categories_container">
+							<li class="">
+								<div class="select-btn"> 
+									<button class="btn_filter_select" value="mayor_age">
+										उमेर 
+									</button> 
+								</div>
+							</li>		
+						</ul>
+						<ul class="nav nav-pills" id="categories_container">
+							<li class="">
+								<div class="select-btn"> 
+									<button class="btn_filter_select" value="mayor_gender">
+										लैंगिक आवस्था
+									</button> 
+								</div>
+							</li>
+						</ul>
+						<ul class="nav nav-pills" id="categories_container">
+							<li class="">
+								<div class="select-btn"> 
+									<button class="btn_filter_select" value="mayor_margin">
+										मतान्तर
+									</button> 
+								</div>
+							</li>
+						</ul>
+						<div>
+							<button class="btn btn-primary reset_btn" id="reset">Reset</button>
+						</div>
+				</div>
+			
+					
+			</div>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+	
+	<script src="https://unpkg.com/leaflet@1.0.0-rc.1/dist/leaflet.js"></script>
+	
+	<!-- <script src="https://kit.fontawesome.com/a91a27e46f.js" crossorigin="anonymous"></script> -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+   
+		
+	<script src="js/jquery.csv.min.js" type="text/javascript"></script>
+	
+    <div id="map" hidden>
+	<div id="map_info" ></div>
+
+	
+	
+	</div>
+	<div id="loading">
+		<img src="loading.gif" style="height:4rem"/>
+
+	</div>
+
+  </body>
+  <script src="json/newparties.json?v=1.0.6" type="text/javascript"></script>
+
+	 <!-- <script src="js/election.js" type="text/javascript"></script> -->
+   <script src="js/templates.js?v=1.0.6" type="text/javascript"></script>
+   <script src="js/data.js?v=1.0.6" type="text/javascript"></script>
+   <script src="js/global.js?v=1.0.6" type="text/javascript"></script>
+	 <script src="js/filters.js?v=1.0.6" type="text/javascript"></script>
+   <script src="js/summary.js?v=1.0.6" type="text/javascript"></script>
+	 <script src="js/render.js?v=1.0.6" type="text/javascript"></script>
+   <script src="js/legends.js?v=1.0.6" type="text/javascript"></script>
+   <script src="js/init.js?v=1.0.6" type="text/javascript"></script>
+   <script src="js/actions.js?v=1.0.6" type="text/javascript"></script>
+   <script src="js/popups.js?v=1.0.6" type="text/javascript"></script>
+   <script src="js/new.js?v=1.0.6" type="text/javascript"></script>
+   <script src="js/geoJsonToSvg.js?v=1.0.6" type="text/javascript"></script>
+</html>

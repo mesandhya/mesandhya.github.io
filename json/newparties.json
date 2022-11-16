@@ -1,0 +1,521 @@
+[
+  {
+    "party_code": "NCP-UML",
+    "party_nepali_name": "एमाले",
+    "party_english_name": "a",
+    "color_code": "#FF5C5C",
+    "party_id": 1,
+    "party_symbol": "https://election.onlinekhabar.com/wp-content/uploads/2022/11/CPN-UML.jpg" 
+  },
+  {
+    "party_code": "NC",
+    "party_nepali_name": "नेपाली कांग्रेस",
+    "party_english_name": "a",
+    "color_code": "#5DB56B",
+    "party_id": 2,
+    "party_symbol": "https://election.onlinekhabar.com/wp-content/uploads/2022/11/Nepali-Congress.jpg"
+  },
+  {
+    "party_code": "MC",
+    "party_nepali_name": "माओवादी केन्द्र",
+    "party_english_name": "a",
+    "color_code": "#2E6CA5",
+    "party_id": 3,
+    "party_symbol": "https://election.onlinekhabar.com/wp-content/uploads/2022/11/Maobadi.png"
+  },
+  {
+    "party_code": "NDP",
+    "party_nepali_name": "राप्रपा",
+    "party_english_name": "a",
+    "color_code": "#5DB56B",
+    "party_id": 4,
+    "party_symbol":"https://election.onlinekhabar.com/wp-content/uploads/2022/11/RPP-2.jpg"
+  },
+  {
+    "party_code": "JSP",
+    "party_nepali_name": "जसपा",
+    "party_english_name": "a",
+    "color_code": "#90BC95",
+    "party_id": 41,
+    "party_symbol": "https://election.onlinekhabar.com/wp-content/uploads/2022/11/Jasapa.png"
+  },
+  {
+    "party_code": "I",
+    "party_nepali_name": "स्वतन्त्र",
+    "party_english_name": "a",
+    "color_code": "#2CD9FF",
+    "party_id": 13
+  },
+  {
+    "party_code": "NCP-US",
+    "party_nepali_name": "नेकपा एस",
+    "party_english_name": "a",
+    "color_code": "#008080",
+    "party_id": 38,
+    "party_symbol":"https://election.onlinekhabar.com/wp-content/uploads/2022/11/Ekkikrit-samajbadi.png"
+  },
+  {
+    "party_code": "LSP",
+    "party_nepali_name": "लोसपा",
+    "party_english_name": "a",
+    "color_code": "#E8F983",
+    "party_id": 44,
+    "party_symbol":"https://election.onlinekhabar.com/wp-content/uploads/2022/11/Losapa.png"
+  },
+  {
+    "party_code": "NM",
+    "party_nepali_name": "नेकपा माले",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 7
+  },
+  {
+    "party_code": "BSP",
+    "party_nepali_name": "विवेकशील साझा पार्टी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 12
+  },
+  {
+    "party_code": "SLRM",
+    "party_nepali_name": "संघीय लोकतान्त्रिक राष्ट्रिय मञ्च",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 37
+  },
+  {
+    "party_code": "MNO",
+    "party_nepali_name": "मंगोल नेशनल अर्गनाइजेसन",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 42
+  },
+  {
+    "party_code": "KKSP",
+    "party_nepali_name": "किरात खम्बुवान साझा पार्टी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 43
+  },
+  {
+    "party_code": "ULP",
+    "party_nepali_name": "उन्‍नत लोकतन्त्र पार्टी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 45
+  },
+  {
+    "party_code": "NBP",
+    "party_nepali_name": "नेपाल विवेकशील पार्टी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 46
+  },
+  {
+    "party_code": "NLP",
+    "party_nepali_name": "नेपाल लोकतान्त्रिक पार्टी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 47
+  },
+  {
+    "party_code": "JP",
+    "party_nepali_name": "जनमत पार्टी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 48,
+    "party_symbol":"https://election.onlinekhabar.com/wp-content/uploads/2022/11/Janamat-1.jpg"
+  },
+  {
+    "party_code": "MJP",
+    "party_nepali_name": "मौलिक जरोकिलो पार्टी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 49
+  },
+  {
+    "party_code": "TSLP",
+    "party_nepali_name": "तामाङसालिङ लोकतान्त्रिक पार्टी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 803
+  },
+  {
+    "party_code": "JPN",
+    "party_nepali_name": "जनजागरण पार्टी नेपाल",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 812
+  },
+  {
+    "party_code": "RNP",
+    "party_nepali_name": "राष्ट्रिय नागरिक पार्टी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 82
+  },
+  {
+    "party_code": "NRP",
+    "party_nepali_name": "नेपाः राष्ट्रिय पार्टी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 83
+  },
+  {
+    "party_code": "NR",
+    "party_nepali_name": "नेकपा राष्ट्रवादी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 84
+  },
+  {
+    "party_code": "RYP",
+    "party_nepali_name": "राष्ट्रिय यथार्थवादी पार्टी, नेपाल",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 85
+  },
+  {
+    "party_code": "NPP",
+    "party_nepali_name": "नेश्नलिष्ट पिपल्स पार्टी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 86
+  },
+  {
+    "party_code": "PP",
+    "party_nepali_name": "प्रजातान्त्रिक पार्टी नेपाल",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 87
+  },
+  {
+    "party_code": "SK",
+    "party_nepali_name": "समाजवादी केन्द्र नेपाल",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 88
+  },
+  {
+    "party_code": "NCPP",
+    "party_nepali_name": "नेपाल कम्युनिष्ट पार्टी परिवर्तन",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 89
+  },
+  {
+    "party_code": "NDP",
+    "party_nepali_name": "नेपाल दलित पार्टी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 90
+  },
+  {
+    "party_code": "DS",
+    "party_nepali_name": "देशभक्त समाज",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 91
+  },
+  {
+    "party_code": "SPN",
+    "party_nepali_name": "साझा पार्टी नेपाल",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 92
+  },
+  {
+    "party_code": "NWPP",
+    "party_nepali_name": "नेपाल मजदुर किसान पार्टी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 10
+  },
+  {
+    "party_code": "CPN-ML",
+    "party_nepali_name": "नेपाल समावेशी पार्टी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 50
+  },
+  {
+    "party_code": "NPSP",
+    "party_nepali_name": "नेपाली जनता दल",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 51
+  },
+  {
+    "party_code": "MSN",
+    "party_nepali_name": "आमूल परिवर्तन मसिहा पार्टी नेपाल",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 52
+  },
+  {
+    "party_code": "NFD",
+    "party_nepali_name": "नेपाल परिवार दल",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 53
+  },
+  {
+    "party_code": "JPN",
+    "party_nepali_name": "नेकपा मार्क्सवादी (पुष्पलाल)",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 54
+  },
+  {
+    "party_code": "LF",
+    "party_nepali_name": "खम्बुवान राष्ट्रिय मोर्चा नेपाल",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 55
+  },
+  {
+    "party_code": "RYPN",
+    "party_nepali_name": "नेपालका लागि नेपाली पार्टी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 56
+  },
+  {
+    "party_code": "DPSM",
+    "party_nepali_name": "जनसमाजवादी पार्टी नेपाल",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 57
+  },
+  {
+    "party_code": "BND",
+    "party_nepali_name": "राप्रपा नेपाल",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 58
+  },
+  {
+    "party_code": "DS",
+    "party_nepali_name": "नेपाली कांग्रेस (बी.पी.)",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 60
+  },
+  {
+    "party_code": "LDP",
+    "party_nepali_name": "नागरिक उन्मुक्ति पार्टी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 61,
+    "party_symbol":"https://election.onlinekhabar.com/wp-content/uploads/2022/11/Nagarik-aunmukti-1.jpg"
+  },
+  {
+    "party_code": "CLP",
+    "party_nepali_name": "नेकपा माओवादी समाजवादी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 62
+  },
+  {
+    "party_code": "TLP",
+    "party_nepali_name": "नेकपा समाजवादी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 63
+  },
+  {
+    "party_code": "NDP",
+    "party_nepali_name": "पिछडावर्ग निषाद दलित जनजाति पार्टी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 64
+  },
+  {
+    "party_code": "FDNF",
+    "party_nepali_name": "नेपाल जनता पार्टी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 65
+  },
+  {
+    "party_code": "KRM",
+    "party_nepali_name": "राष्ट्रिय समाजवादी पार्टी नेपाल",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 66
+  },
+  {
+    "party_code": "NCP-M",
+    "party_nepali_name": "नेपाल संघीय समाजवादी पार्टी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 67
+  },
+  {
+    "party_code": "NSP-Socialist",
+    "party_nepali_name": "सचेत नेपाली पार्टी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 68
+  },
+  {
+    "party_code": "MPP",
+    "party_nepali_name": "जनता प्रगतिशील पार्टी, नेपाल",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 69,
+    "party_symbol":"https://election.onlinekhabar.com/wp-content/uploads/2022/11/Janata-pragatisil-1.jpg"
+  },
+  {
+    "party_code": "NLJCP",
+    "party_nepali_name": "बहुजन शक्ति पार्टी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 70
+  },
+  {
+    "party_code": "NJP",
+    "party_nepali_name": "तराइ-मधेश लोकतान्त्रिक पार्टी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 71
+  },
+  {
+    "party_code": "LD",
+    "party_nepali_name": "राष्ट्रिय सद्भावना पार्टी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 72
+  },
+  {
+    "party_code": "BSPN",
+    "party_nepali_name": "बहुजन एकता पार्टी नेपाल",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 73
+  },
+  {
+    "party_code": "NLF",
+    "party_nepali_name": "सामाजिक एकता पार्टी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 74
+  },
+  {
+    "party_code": "NJD",
+    "party_nepali_name": "राष्ट्रिय जनता पार्टी नेपाल",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 75
+  },
+  {
+    "party_code": "NCP-MLS",
+    "party_nepali_name": "इतिहासिक प्रजातान्त्रिक जनता पार्टी नेपाल",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 76
+  },
+  {
+    "party_code": "RTBSP",
+    "party_nepali_name": "बहुजन समाज पार्टी नेपाल",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 77
+  },
+  {
+    "party_code": "NSUP",
+    "party_nepali_name": "नेपाल सुशासन पार्टी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 78
+  },
+  {
+    "party_code": "ANSP",
+    "party_nepali_name": "आधुनिक नेपाल समाजवादी पार्टी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 79
+  },
+  {
+    "party_code": "NPL",
+    "party_nepali_name": "राष्ट्रिय जनमुक्ति पार्टी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 80
+  },
+  {
+    "party_code": "NPF",
+    "party_nepali_name": "राष्ट्रिय जनमोर्चा",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 81
+  }
+  ,
+  {
+    "party_code": "SLRMT",
+    "party_nepali_name": "राष्ट्रिय जनमोर्चा",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 18
+  }
+  ,
+  {
+    "party_code": "NSP",
+    "party_nepali_name": "नेपाल सद्भावना पार्टी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 181
+  }
+  ,
+  {
+    "party_code": "RJMAA",
+    "party_nepali_name": "राष्ट्रिय मुक्ति आन्दोलन नेपाल",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 182
+  },
+  {
+    "party_code": "RJM",
+    "party_nepali_name": "राष्ट्रिय जनमोर्चा",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 8,
+    "party_symbol":"https://election.onlinekhabar.com/wp-content/uploads/2022/11/Ra-ja-mo-1.jpg"
+  },
+  {
+    "party_code": "RJPN",
+    "party_nepali_name": "राष्ट्रिय जनता पार्टी नेपाल",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 32
+  },
+  {
+    "party_code": "SSFN",
+    "party_nepali_name": "संघीय समाजवादी फोरम नेपाल",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 33
+  },
+  {
+    "party_code": "NSPN",
+    "party_nepali_name": "नयाँ शक्ति पार्टी नेपाल",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 34
+  },
+  {
+    "party_code": "RSP",
+    "party_nepali_name": "राष्ट्रिय स्वतन्त्र पार्टी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 93,
+    "party_symbol":"https://election.onlinekhabar.com/wp-content/uploads/2022/11/Ghanti.jpg"
+  },
+  {
+    "party_code": "HPN",
+    "party_nepali_name": "हाम्रो नेपाली पार्टी",
+    "party_english_name": "a",
+    "color_code": "#D4E2F8",
+    "party_id": 94
+  }
+]
