@@ -113,8 +113,8 @@ Legends.mayor_gender.onAdd = function (map) {
     Object.keys(GenderColor).forEach(key => {
         var text = GenderColor[key].replace(/^\s+|\s+$/g,"").replace("#","");
         Global.currentLegendKeys.push(text);
-        Global.currentSummaryBody[( key=="M" ? "पुरुस":"महिला")] = Summary[Global.currentFilter](key)
-        div.innerHTML += '<div style="cursor:pointer" id="legend_option_'+text+'" onclick="legendClick(\''+text+'\')" ondblclick="legendDblClick(\''+text+'\')">'+'<i style="background:' + GenderColor[key] + '"></i>' +( key=="M" ? "पुरुस":"महिला") + "<br>" +"</div>" ;
+        Global.currentSummaryBody[( key=="M" ? "पुरुष":"महिला")] = Summary[Global.currentFilter](key)
+        div.innerHTML += '<div style="cursor:pointer" id="legend_option_'+text+'" onclick="legendClick(\''+text+'\')" ondblclick="legendDblClick(\''+text+'\')">'+'<i style="background:' + GenderColor[key] + '"></i>' +( key=="M" ? "पुरुष":"महिला") + "<br>" +"</div>" ;
     });
     div.innerHTML += '</p>';
 
@@ -189,8 +189,8 @@ Legends.vice_mayor_gender.onAdd = function (map) {
     Object.keys(GenderColor).forEach(key => {
         var text = GenderColor[key].replace(/^\s+|\s+$/g,"").replace("#","");
         Global.currentLegendKeys.push(text); 
-        Global.currentSummaryBody[( key=="M" ? "पुरुस":"महिला")] = Summary[Global.currentFilter](key)
-          div.innerHTML += '<div style="cursor:pointer" id="legend_option_'+text+'" onclick="legendClick(\''+text+'\')" ondblclick="legendDblClick(\''+text+'\')">'+'<i style="background:' + GenderColor[key] + '"></i>' +( key=="M" ? "पुरुस":"महिला") + "<br>"+"</div>" ;
+        Global.currentSummaryBody[( key=="M" ? "पुरुष":"महिला")] = Summary[Global.currentFilter](key)
+          div.innerHTML += '<div style="cursor:pointer" id="legend_option_'+text+'" onclick="legendClick(\''+text+'\')" ondblclick="legendDblClick(\''+text+'\')">'+'<i style="background:' + GenderColor[key] + '"></i>' +( key=="M" ? "पुरुष":"महिला") + "<br>"+"</div>" ;
     });
     div.innerHTML += '</p>';
 

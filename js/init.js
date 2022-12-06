@@ -7,7 +7,7 @@ async function init()
     await initGeoJsons();
     await initData();
     $('#map').removeAttr("hidden");
-    $("#loading").hide();
+    $("#loading").hide(5000);
     Global.currentLayers = [
         {
             geoJson: Global.provinceGeoJson,

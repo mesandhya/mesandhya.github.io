@@ -276,7 +276,7 @@ function vice_mayor_gender(feature){
     div += "<br>";
     div += "प्राप्त मत :" + toNepaliDigits(mayor.acquired_vote1)
     div += "<br>";
-    div += "लिङ्ग: "+ (mayor.gender1=="M"?"पुरुस":"महिला");
+    div += "लिङ्ग: "+ (mayor.gender1=="M"?"पुरुष":"महिला");
     div += "<br>";
     if(mayor.unopposed){
       div+= "( "+mayor.unopposed+" )";
@@ -284,7 +284,7 @@ function vice_mayor_gender(feature){
     else{
       div += "<b>उम्मेदवार: </b>" + mayor.candidate_name2 + " ( "+ Data.Parties[mayor.partycode2].party_nepali_name + " )";
       div += "<br>";
-      div += "लिङ्ग: "+ (mayor.gender2=="M"?"पुरुस":"महिला");
+      div += "लिङ्ग: "+ (mayor.gender2=="M"?"पुरुष":"महिला");
       div += "</p>";
     }
 

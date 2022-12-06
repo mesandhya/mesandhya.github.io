@@ -190,7 +190,7 @@ class TemplateClass {
         </div>` +
       `<div class="row-wrap">
           <div>लिङ्ग</div> <div> `+ 
-            (info["body"]["1stGender"] == "M" ? "पुरुस" : "महिला") + ` 
+            (info["body"]["1stGender"] == "M" ? "पुरुष" : "महिला") + ` 
           </div>
         </div>`
       + (info["body"].unopposed ?
@@ -204,7 +204,7 @@ class TemplateClass {
           </div>` +
         `<div class="row-wrap">
           <div>लिङ्ग</div> <div> `+
-            (info["body"]["2ndGender"] == "M" ? "पुरुस" : "महिला") + ` 
+            (info["body"]["2ndGender"] == "M" ? "पुरुष" : "महिला") + ` 
           </div>
         </div>`
 
@@ -220,7 +220,7 @@ class TemplateClass {
           </div>` +
         `<div class="row-wrap">
           <div>लिङ्ग</div> <div> `+
-            (info["body"]["3rdGender"] == "M" ? "पुरुस" : "महिला") + ` 
+            (info["body"]["3rdGender"] == "M" ? "पुरुष" : "महिला") + ` 
           </div>
         </div>`
 
@@ -390,7 +390,7 @@ class TemplateClass {
       `<div class="row-wrap">
           <div>लिङ्ग</div>
           <div>
-            `+ (info.gender1 == "M" ? "पुरुस" : "महिला") + `
+            `+ (info.gender1 == "M" ? "पुरुष" : "महिला") + `
           </div>
         </div>`
       + (info.unopposed ?
@@ -405,7 +405,7 @@ class TemplateClass {
         `<div class="row-wrap">
             <div>लिङ्ग</div>
             <div>
-              `+ (info.gender2 == "M" ? "पुरुस" : "महिला") + `
+              `+ (info.gender2 == "M" ? "पुरुष" : "महिला") + `
             </div>
           </div>`
 
