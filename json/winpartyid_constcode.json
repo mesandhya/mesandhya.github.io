@@ -1,0 +1,26 @@
+[
+    {
+      "party_id": 1,
+      "ConstCode": 0
+    },
+    {
+      "party_id": 2,
+      "ConstCode": 7071
+    },
+    {
+      "party_id": 3,
+      "ConstCode": 7072
+    },
+    {
+      "party_id": 4,
+      "ConstCode": 5051
+    },
+    {
+      "party_id": 5,
+      "ConstCode": 0
+    },
+    {
+      "party_id": 6,
+      "ConstCode": 4111
+    }
+]
