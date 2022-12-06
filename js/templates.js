@@ -99,6 +99,34 @@ class TemplateClass {
         </div>
 
         <div class="row-wrap">
+          <div style="flex:3">
+            <div class="row">
+              <div class="col-md-3">
+                <img class="candidate_img" src="`
+      + info["body"]["3rdPhoto"] + `" />
+              </div>
+              <div class="col-md-9 candidate_info">
+                <p class="candidate_name">`+ info["body"]["3rdCandidate"] + `</p>
+                <p class="candidate_party">`+ Data.PartiesById[info["body"]["3rdPartyID"]].party_nepali_name + `</p>
+              </div>
+            </div>
+          </div>
+          <div>
+          <div class="candidate_vote_count">
+          `+ getVictoryIcon("none") + `
+          <div>
+            `+ toNepaliDigits(info["body"]["3rdTotalVoteReceived"]) + `
+          </div>
+          ` +
+      (Data.PartiesById[info["body"]["3rdPartyID"]].party_symbol ?
+        `<img class="party_image" src="` + Data.PartiesById[info["body"]["3rdPartyID"]].party_symbol + `">` : "")
+      + `
+          </div>
+          
+        </div>
+        </div>
+
+        <div class="row-wrap">
          
               <div class="col-md-6">
                 <button class="button" onclick="window.location.href='`+ Data.PhotoLinkPage[info["body"]["ConstCode"]].PageLink + `';">FULL DETAILS
@@ -187,7 +215,7 @@ class TemplateClass {
         `<div class="row-wrap">
               <div>उम्मेदवार</div>
               <div>
-              `+ info["body"]["3rdCandidate"] + " ( " + Data.PartiesById[info["body"]["2ndPartyID"]].party_nepali_name + " )" + `
+              `+ info["body"]["3rdCandidate"] + " ( " + Data.PartiesById[info["body"]["3rdPartyID"]].party_nepali_name + " )" + `
               </div>
           </div>` +
         `<div class="row-wrap">
@@ -236,13 +264,13 @@ class TemplateClass {
         `<div class="row-wrap">
               <div>उम्मेदवार</div>
               <div>
-              `+ info["body"]["3rdCandidate"] + " ( " + Data.PartiesById[info["body"]["2ndPartyID"]].party_nepali_name + " )" + `
+              `+ info["body"]["3rdCandidate"] + " ( " + Data.PartiesById[info["body"]["3rdPartyID"]].party_nepali_name + " )" + `
               </div>
           </div>` +
         `<div class="row-wrap">
             <div>उमेर</div>
             <div>
-              `+ toNepaliDigits(info["body"]["2ndAge"]) + " वर्ष" + `
+              `+ toNepaliDigits(info["body"]["3rdAge"]) + " वर्ष" + `
             </div>
           </div>`
 
