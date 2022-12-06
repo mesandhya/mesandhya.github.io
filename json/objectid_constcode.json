@@ -1,0 +1,742 @@
+[
+  {
+    "OBJECTID_1": 1,
+    "ConstCode": 0
+  },
+  {
+    "OBJECTID_1": 2,
+    "ConstCode": 7071
+  },
+  {
+    "OBJECTID_1": 3,
+    "ConstCode": 7072
+  },
+  {
+    "OBJECTID_1": 4,
+    "ConstCode": 5051
+  },
+  {
+    "OBJECTID_1": 5,
+    "ConstCode": 0
+  },
+  {
+    "OBJECTID_1": 6,
+    "ConstCode": 4111
+  },
+  {
+    "OBJECTID_1": 7,
+    "ConstCode": 4112
+  },
+  {
+    "OBJECTID_1": 8,
+    "ConstCode": 7041
+  },
+  {
+    "OBJECTID_1": 9,
+    "ConstCode": 0
+  },
+  {
+    "OBJECTID_1": 10,
+    "ConstCode": 7021
+  },
+  {
+    "OBJECTID_1": 11,
+    "ConstCode": 0
+  },
+  {
+    "OBJECTID_1": 12,
+    "ConstCode": 7011
+  },
+  {
+    "OBJECTID_1": 13,
+    "ConstCode": 5111
+  },
+  {
+    "OBJECTID_1": 14,
+    "ConstCode": 5112
+  },
+  {
+    "OBJECTID_1": 15,
+    "ConstCode": 5113
+  },
+  {
+    "OBJECTID_1": 16,
+    "ConstCode": 0
+  },
+  {
+    "OBJECTID_1": 17,
+    "ConstCode": 2071
+  },
+  {
+    "OBJECTID_1": 18,
+    "ConstCode": 2072
+  },
+  {
+    "OBJECTID_1": 19,
+    "ConstCode": 2073
+  },
+  {
+    "OBJECTID_1": 20,
+    "ConstCode": 2074
+  },
+  {
+    "OBJECTID_1": 21,
+    "ConstCode": 5121
+  },
+  {
+    "OBJECTID_1": 22,
+    "ConstCode": 5122
+  },
+  {
+    "OBJECTID_1": 23,
+    "ConstCode": 3071
+  },
+  {
+    "OBJECTID_1": 24,
+    "ConstCode": 3072
+  },
+  {
+    "OBJECTID_1": 25,
+    "ConstCode": 1061
+  },
+  {
+    "OBJECTID_1": 26,
+    "ConstCode": 0
+  },
+  {
+    "OBJECTID_1": 27,
+    "ConstCode": 3131
+  },
+  {
+    "OBJECTID_1": 28,
+    "ConstCode": 3132
+  },
+  {
+    "OBJECTID_1": 29,
+    "ConstCode": 3133
+  },
+  {
+    "OBJECTID_1": 30,
+    "ConstCode": 7051
+  },
+  {
+    "OBJECTID_1": 31,
+    "ConstCode": 6061
+  },
+  {
+    "OBJECTID_1": 32,
+    "ConstCode": 6062
+  },
+  {
+    "OBJECTID_1": 33,
+    "ConstCode": 5101
+  },
+  {
+    "OBJECTID_1": 34,
+    "ConstCode": 5102
+  },
+  {
+    "OBJECTID_1": 35,
+    "ConstCode": 5103
+  },
+  {
+    "OBJECTID_1": 37,
+    "ConstCode": 3041
+  },
+  {
+    "OBJECTID_1": 38,
+    "ConstCode": 3042
+  },
+  {
+    "OBJECTID_1": 39,
+    "ConstCode": 1071
+  },
+  {
+    "OBJECTID_1": 40,
+    "ConstCode": 3011
+  },
+  {
+    "OBJECTID_1": 41,
+    "ConstCode": 6011
+  },
+  {
+    "OBJECTID_1": 42,
+    "ConstCode": 0
+  },
+  {
+    "OBJECTID_1": 43,
+    "ConstCode": 7061
+  },
+  {
+    "OBJECTID_1": 44,
+    "ConstCode": 4011
+  },
+  {
+    "OBJECTID_1": 45,
+    "ConstCode": 4012
+  },
+  {
+    "OBJECTID_1": 46,
+    "ConstCode": 5041
+  },
+  {
+    "OBJECTID_1": 47,
+    "ConstCode": 5042
+  },
+  {
+    "OBJECTID_1": 48,
+    "ConstCode": 6031
+  },
+  {
+    "OBJECTID_1": 49,
+    "ConstCode": 1101
+  },
+  {
+    "OBJECTID_1": 50,
+    "ConstCode": 1102
+  },
+  {
+    "OBJECTID_1": 51,
+    "ConstCode": 6071
+  },
+  {
+    "OBJECTID_1": 52,
+    "ConstCode": 1111
+  },
+  {
+    "OBJECTID_1": 53,
+    "ConstCode": 1112
+  },
+  {
+    "OBJECTID_1": 54,
+    "ConstCode": 1113
+  },
+  {
+    "OBJECTID_1": 55,
+    "ConstCode": 1114
+  },
+  {
+    "OBJECTID_1": 56,
+    "ConstCode": 1115
+  },
+  {
+    "OBJECTID_1": 57,
+    "ConstCode": 6041
+  },
+  {
+    "OBJECTID_1": 58,
+    "ConstCode": 3091
+  },
+  {
+    "OBJECTID_1": 59,
+    "ConstCode": 3092
+  },
+  {
+    "OBJECTID_1": 60,
+    "ConstCode": 7081
+  },
+  {
+    "OBJECTID_1": 61,
+    "ConstCode": 7082
+  },
+  {
+    "OBJECTID_1": 62,
+    "ConstCode": 7083
+  },
+  {
+    "OBJECTID_1": 63,
+    "ConstCode": 7084
+  },
+  {
+    "OBJECTID_1": 64,
+    "ConstCode": 7085
+  },
+  {
+    "OBJECTID_1": 65,
+    "ConstCode": 6051
+  },
+  {
+    "OBJECTID_1": 66,
+    "ConstCode": 0
+  },
+  {
+    "OBJECTID_1": 67,
+    "ConstCode": 7091
+  },
+  {
+    "OBJECTID_1": 68,
+    "ConstCode": 7092
+  },
+  {
+    "OBJECTID_1": 69,
+    "ConstCode": 7093
+  },
+  {
+    "OBJECTID_1": 70,
+    "ConstCode": 5091
+  },
+  {
+    "OBJECTID_1": 71,
+    "ConstCode": 5092
+  },
+  {
+    "OBJECTID_1": 72,
+    "ConstCode": 5093
+  },
+  {
+    "OBJECTID_1": 73,
+    "ConstCode": 3061
+  },
+  {
+    "OBJECTID_1": 74,
+    "ConstCode": 30610
+  },
+  {
+    "OBJECTID_1": 75,
+    "ConstCode": 3062
+  },
+  {
+    "OBJECTID_1": 76,
+    "ConstCode": 3063
+  },
+  {
+    "OBJECTID_1": 77,
+    "ConstCode": 3064
+  },
+  {
+    "OBJECTID_1": 78,
+    "ConstCode": 3065
+  },
+  {
+    "OBJECTID_1": 79,
+    "ConstCode": 3066
+  },
+  {
+    "OBJECTID_1": 80,
+    "ConstCode": 3067
+  },
+  {
+    "OBJECTID_1": 81,
+    "ConstCode": 3068
+  },
+  {
+    "OBJECTID_1": 82,
+    "ConstCode": 3069
+  },
+  {
+    "OBJECTID_1": 83,
+    "ConstCode": 1051
+  },
+  {
+    "OBJECTID_1": 84,
+    "ConstCode": 3081
+  },
+  {
+    "OBJECTID_1": 85,
+    "ConstCode": 3082
+  },
+  {
+    "OBJECTID_1": 86,
+    "ConstCode": 3083
+  },
+  {
+    "OBJECTID_1": 87,
+    "ConstCode": 4061
+  },
+  {
+    "OBJECTID_1": 88,
+    "ConstCode": 2041
+  },
+  {
+    "OBJECTID_1": 89,
+    "ConstCode": 2042
+  },
+  {
+    "OBJECTID_1": 90,
+    "ConstCode": 2043
+  },
+  {
+    "OBJECTID_1": 91,
+    "ConstCode": 2044
+  },
+  {
+    "OBJECTID_1": 92,
+    "ConstCode": 0
+  },
+  {
+    "OBJECTID_1": 93,
+    "ConstCode": 3121
+  },
+  {
+    "OBJECTID_1": 94,
+    "ConstCode": 3122
+  },
+  {
+    "OBJECTID_1": 95,
+    "ConstCode": 4021
+  },
+  {
+    "OBJECTID_1": 96,
+    "ConstCode": 1121
+  },
+  {
+    "OBJECTID_1": 97,
+    "ConstCode": 1122
+  },
+  {
+    "OBJECTID_1": 98,
+    "ConstCode": 1123
+  },
+  {
+    "OBJECTID_1": 99,
+    "ConstCode": 1124
+  },
+  {
+    "OBJECTID_1": 100,
+    "ConstCode": 1125
+  },
+  {
+    "OBJECTID_1": 101,
+    "ConstCode": 1126
+  },
+  {
+    "OBJECTID_1": 102,
+    "ConstCode": 6021
+  },
+  {
+    "OBJECTID_1": 103,
+    "ConstCode": 0
+  },
+  {
+    "OBJECTID_1": 104,
+    "ConstCode": 4041
+  },
+  {
+    "OBJECTID_1": 105,
+    "ConstCode": 0
+  },
+  {
+    "OBJECTID_1": 106,
+    "ConstCode": 4081
+  },
+  {
+    "OBJECTID_1": 107,
+    "ConstCode": 4082
+  },
+  {
+    "OBJECTID_1": 108,
+    "ConstCode": 5071
+  },
+  {
+    "OBJECTID_1": 109,
+    "ConstCode": 5072
+  },
+  {
+    "OBJECTID_1": 110,
+    "ConstCode": 0
+  },
+  {
+    "OBJECTID_1": 111,
+    "ConstCode": 3051
+  },
+  {
+    "OBJECTID_1": 112,
+    "ConstCode": 3052
+  },
+  {
+    "OBJECTID_1": 113,
+    "ConstCode": 1041
+  },
+  {
+    "OBJECTID_1": 114,
+    "ConstCode": 5061
+  },
+  {
+    "OBJECTID_1": 115,
+    "ConstCode": 5062
+  },
+  {
+    "OBJECTID_1": 116,
+    "ConstCode": 1091
+  },
+  {
+    "OBJECTID_1": 117,
+    "ConstCode": 4101
+  },
+  {
+    "OBJECTID_1": 118,
+    "ConstCode": 0
+  },
+  {
+    "OBJECTID_1": 119,
+    "ConstCode": 2081
+  },
+  {
+    "OBJECTID_1": 120,
+    "ConstCode": 2082
+  },
+  {
+    "OBJECTID_1": 121,
+    "ConstCode": 2083
+  },
+  {
+    "OBJECTID_1": 122,
+    "ConstCode": 2084
+  },
+  {
+    "OBJECTID_1": 123,
+    "ConstCode": 5031
+  },
+  {
+    "OBJECTID_1": 124,
+    "ConstCode": 3101
+  },
+  {
+    "OBJECTID_1": 125,
+    "ConstCode": 3031
+  },
+  {
+    "OBJECTID_1": 126,
+    "ConstCode": 2061
+  },
+  {
+    "OBJECTID_1": 127,
+    "ConstCode": 2062
+  },
+  {
+    "OBJECTID_1": 128,
+    "ConstCode": 2063
+  },
+  {
+    "OBJECTID_1": 129,
+    "ConstCode": 2064
+  },
+  {
+    "OBJECTID_1": 130,
+    "ConstCode": 5021
+  },
+  {
+    "OBJECTID_1": 131,
+    "ConstCode": 0
+  },
+  {
+    "OBJECTID_1": 132,
+    "ConstCode": 5011
+  },
+  {
+    "OBJECTID_1": 133,
+    "ConstCode": 6081
+  },
+  {
+    "OBJECTID_1": 134,
+    "ConstCode": 5081
+  },
+  {
+    "OBJECTID_1": 135,
+    "ConstCode": 5082
+  },
+  {
+    "OBJECTID_1": 136,
+    "ConstCode": 5083
+  },
+  {
+    "OBJECTID_1": 137,
+    "ConstCode": 5084
+  },
+  {
+    "OBJECTID_1": 138,
+    "ConstCode": 5085
+  },
+  {
+    "OBJECTID_1": 139,
+    "ConstCode": 6091
+  },
+  {
+    "OBJECTID_1": 140,
+    "ConstCode": 0
+  },
+  {
+    "OBJECTID_1": 141,
+    "ConstCode": 1021
+  },
+  {
+    "OBJECTID_1": 142,
+    "ConstCode": 0
+  },
+  {
+    "OBJECTID_1": 143,
+    "ConstCode": 2011
+  },
+  {
+    "OBJECTID_1": 144,
+    "ConstCode": 2012
+  },
+  {
+    "OBJECTID_1": 145,
+    "ConstCode": 2013
+  },
+  {
+    "OBJECTID_1": 146,
+    "ConstCode": 2014
+  },
+  {
+    "OBJECTID_1": 147,
+    "ConstCode": 2051
+  },
+  {
+    "OBJECTID_1": 148,
+    "ConstCode": 2052
+  },
+  {
+    "OBJECTID_1": 149,
+    "ConstCode": 2053
+  },
+  {
+    "OBJECTID_1": 150,
+    "ConstCode": 2054
+  },
+  {
+    "OBJECTID_1": 151,
+    "ConstCode": 3111
+  },
+  {
+    "OBJECTID_1": 152,
+    "ConstCode": 3112
+  },
+  {
+    "OBJECTID_1": 153,
+    "ConstCode": 0
+  },
+  {
+    "OBJECTID_1": 154,
+    "ConstCode": 3021
+  },
+  {
+    "OBJECTID_1": 155,
+    "ConstCode": 3022
+  },
+  {
+    "OBJECTID_1": 156,
+    "ConstCode": 2021
+  },
+  {
+    "OBJECTID_1": 157,
+    "ConstCode": 2022
+  },
+  {
+    "OBJECTID_1": 158,
+    "ConstCode": 2023
+  },
+  {
+    "OBJECTID_1": 159,
+    "ConstCode": 2024
+  },
+  {
+    "OBJECTID_1": 160,
+    "ConstCode": 0
+  },
+  {
+    "OBJECTID_1": 161,
+    "ConstCode": 1031
+  },
+  {
+    "OBJECTID_1": 162,
+    "ConstCode": 0
+  },
+  {
+    "OBJECTID_1": 163,
+    "ConstCode": 1131
+  },
+  {
+    "OBJECTID_1": 164,
+    "ConstCode": 1132
+  },
+  {
+    "OBJECTID_1": 165,
+    "ConstCode": 1133
+  },
+  {
+    "OBJECTID_1": 166,
+    "ConstCode": 1134
+  },
+  {
+    "OBJECTID_1": 167,
+    "ConstCode": 6101
+  },
+  {
+    "OBJECTID_1": 168,
+    "ConstCode": 6102
+  },
+  {
+    "OBJECTID_1": 169,
+    "ConstCode": 4091
+  },
+  {
+    "OBJECTID_1": 170,
+    "ConstCode": 4092
+  },
+  {
+    "OBJECTID_1": 171,
+    "ConstCode": 4071
+  },
+  {
+    "OBJECTID_1": 172,
+    "ConstCode": 4072
+  },
+  {
+    "OBJECTID_1": 173,
+    "ConstCode": 1011
+  },
+  {
+    "OBJECTID_1": 174,
+    "ConstCode": 1081
+  },
+  {
+    "OBJECTID_1": 175,
+    "ConstCode": 0
+  },
+  {
+    "OBJECTID_1": 176,
+    "ConstCode": 1141
+  },
+  {
+    "OBJECTID_1": 177,
+    "ConstCode": 1142
+  },
+  {
+    "OBJECTID_1": 178,
+    "ConstCode": 4031
+  },
+  {
+    "OBJECTID_1": 179,
+    "ConstCode": 2031
+  },
+  {
+    "OBJECTID_1": 180,
+    "ConstCode": 2032
+  },
+  {
+    "OBJECTID_1": 181,
+    "ConstCode": 2033
+  },
+  {
+    "OBJECTID_1": 182,
+    "ConstCode": 2034
+  },
+  {
+    "OBJECTID_1": 183,
+    "ConstCode": 4051
+  },
+  {
+    "OBJECTID_1": 184,
+    "ConstCode": 4052
+  },
+  {
+    "OBJECTID_1": 185,
+    "ConstCode": 4053
+  },
+  {
+    "OBJECTID_1": 36,
+    "ConstCode": 7031
+  }
+]
