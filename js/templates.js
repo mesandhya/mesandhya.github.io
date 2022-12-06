@@ -87,7 +87,7 @@ class TemplateClass {
           <div class="candidate_vote_count">
           `+ getVictoryIcon("none") + `
           <div>
-            `+ toNepaliDigits(info["body"]["1stTotalVoteReceived"]) + `
+            `+ toNepaliDigits(info["body"]["2ndTotalVoteReceived"]) + `
           </div>
           ` +
       (Data.PartiesById[info["body"]["2ndPartyID"]].party_symbol ?
