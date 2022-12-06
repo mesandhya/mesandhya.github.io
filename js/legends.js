@@ -43,7 +43,7 @@ Legends.national_park.onAdd = function (map) {
       div.innerHTML += labels;
       
       for (var i = 0; i < categories.length; i++) {
-          div.innerHTML += '<i id="national_park_legend" style="background: #e2f7e1"></i> आरक्ष/निकुञ्ज';
+          div.innerHTML += '<i id="national_park_legend" style="background: #e2f7e1"></i> आरक्ष/राष्ट्रिय निकुञ्ज';
       }
       
       return div;
@@ -315,24 +315,25 @@ function getCandidateLegend(label, Colors){
 function partyLegend(){
     var div = L.DomUtil.create('div', 'info legend'),
    
-    labels = ['<strong>राजनीतिक दल</strong>']+ '<br>';
+    labels = ['<strong>Political Party</strong>']+ '<br>';
     div.innerHTML += '<p style="font-size:20px">';
     div.innerHTML += labels;
     partyColors = [];
     partyCodes = [];
     Object.keys(Data.Parties).forEach(key=>{
-        if(Data.Parties[key].color_code != "#D4E2F8"){
+        if(Data.Parties[key].color_code != "#868686"){
             partyColors[Data.Parties[key].color_code] = Data.Parties[key].party_nepali_name;
             Global.currentSummaryBody[Data.Parties[key].party_nepali_name] = Summary[Global.currentFilter](key)
         }
     })
-    partyColors["#D4E2F8"] = "अन्य";
+    partyColors["#868686"] = "अन्य";
     Global.currentSummaryBody["अन्य"] = Summary[Global.currentFilter]("others");
 
 
     Object.keys(partyColors).forEach(key => {
         var text = key.replace(/^\s+|\s+$/g,"").replace("#","");
         Global.currentLegendKeys.push(text); 
+        console.log(text)
 
         div.innerHTML += '<div style="cursor:pointer" id="legend_option_'+text+'" onclick="legendClick(\''+text+'\')" ondblclick="legendDblClick(\''+text+'\')">'+'<i class="test" style="background:' + key + '"></i>' + partyColors[key]+ "<br>"+'</div>';
         

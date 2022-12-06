@@ -26,7 +26,7 @@ var Filters = {
         municipality: mayor_name
     },
     mayor_party: {
-        municipality: mayor_party2
+        municipality: mayor_party
     },
     mayor_age: {
         municipality: mayor_age
@@ -168,18 +168,32 @@ function generalMunicipality(feature) {
 }
 
 function mayor_party2(feature) {
+
+    var opacity = 0.8
+    var color="red"
+
+    color = DataLayer.getMayorNameColor(feature.properties.OBJECTID_1);
+    if(!regionFilter(feature.properties.OBJECTID_1))
+    {
+        color="#ffffff00";
+        opacity = 0.3
+    } 
+    if(!Global.currentLegendKeys.includes(color.replace(/^\s+|\s+$/g,"").replace("#","")))
+        color = "#ffffff00";
    
     if (Data.fidCodeMap[feature.properties.OBJECTID_1] == 0) {
 
         color = "#e2f7e1";
-        opacity = 0.3
+        // opacity = 0.3
     }
     else {
 
         var constcode = Data.fidCodeMap[feature.properties.OBJECTID_1]
+        console.log(constcode)
         var provienceid = constcode.toString().substring(0,1)
+        console.log(provienceid)
         
-        color = GeneralProvienceColor[provienceid]
+        var color = GeneralProvienceColor[provienceid]
         opacity = 1
 
     };
@@ -193,6 +207,53 @@ function mayor_party2(feature) {
         color: "#333",
         // dashArray: "1",
         fillOpacity: 0.5,
+        fillColor: color
+    };
+}
+
+function mayor_party(feature){
+    // pattern = /OBJECTID_1/i 
+    
+    // var color = NationalParks[feature.properties.OBJECTID_1] ? "#e2f7e1" : (palikaFilter(feature.properties.OBJECTID_1) ? DataLayer.getMayorNameColor(feature.properties.OBJECTID_1) : "#ffffff00");
+    var opacity = 0.8
+    var color="red"
+
+    color = DataLayer.getMayorNameColor(feature.properties.OBJECTID_1);
+    if(!regionFilter(feature.properties.OBJECTID_1))
+    {
+        color="#ffffff00";
+        opacity = 0.3
+    } 
+    if(!Global.currentLegendKeys.includes(color.replace(/^\s+|\s+$/g,"").replace("#","")))
+        color = "#ffffff00";
+    
+    // if(NationalParks[feature.properties.OBJECTID_1]){
+    //     color =  checkNationalPark(feature.properties.OBJECTID_1);
+    // }
+    if(Data.fidCodeMap[feature.properties.OBJECTID_1] == 0){
+        color = "#e2f7e1"
+    }
+    else {
+
+        var constcode = Data.fidCodeMap[feature.properties.OBJECTID_1]
+        console.log(constcode)
+        var provienceid = constcode.toString().substring(0,1)
+        console.log(provienceid)
+        
+        // var color = GeneralProvienceColor[provienceid]
+        opacity = 1
+
+    };
+    if (!regionFilter(feature.properties.OBJECTID_1)) {
+        color = "#ffffff00";
+        opacity = 0.3
+    }
+    return {
+        weight: 0.5,
+        opacity: opacity,
+        color: "#333",
+        dashArray: "1",
+        fillOpacity: 1,
         fillColor: color
     };
 }
@@ -283,17 +344,17 @@ function mayor_name(feature) {
     };
 }
 
-function mayor_party(feature) {
-    if (NationalParks[feature.properties.OBJECTID_1]) {
-        color = checkNationalPark(feature.properties.OBJECTID_1);
-    }
+function mayor_party3(feature) {
+    // if (NationalParks[feature.properties.OBJECTID_1]) {
+    //     color = checkNationalPark(feature.properties.OBJECTID_1);
+    // }
     // pattern = /OBJECTID_1/i 
 
     // var color = NationalParks[feature.properties.OBJECTID_1] ? "#e2f7e1" : (palikaFilter(feature.properties.OBJECTID_1) ? DataLayer.getMayorNameColor(feature.properties.OBJECTID_1) : "#ffffff00");
     var opacity = 0.8
     var color = "red"
 
-    color = DataLayer.getMayorNameColor(feature.properties.OBJECTID_1);
+    color = DataLayer.getConstituencyNameColor(feature.properties.OBJECTID_1);
     if (!regionFilter(feature.properties.OBJECTID_1)) {
         color = "#ffffff00";
         opacity = 0.3

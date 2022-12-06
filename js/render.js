@@ -108,7 +108,7 @@ function renderSummary(){
 
 //     GeoJsons.municipality.features.forEach(function(d){
 //         var constCode = Data.fidCodeMap[d.properties.OBJECTID_1]
-//         console.log(d.properties.OBJECTID_1)
+//         // console.log(d.properties.OBJECTID_1)
 //         var constuency = Data.ConstituencyNames[constCode]
 //         var default_center = [  81.46982838917172, 29.271845521328405]
 //         if(constuency){
@@ -141,13 +141,15 @@ function renderDistrictNames(){
 
     GeoJsons.district.features.forEach(function(d){
         var Lcode = Data.fidCodeDistrict[d.properties.fid]
+        console.log(Lcode)
         var districtname = Data.DistrictNames[Lcode]
         console.log(districtname)
 
         var default_center = [  81.46982838917172, 29.271845521328405]
         if(districtname){
             centroid = getCenterPoint(d.geometry.coordinates[0])
-            console.log(d, centroid)
+            // console.log(d, centroid)
+            textTransform = 0;
             baseFont = 10;
             if(Global.boundLevel == "Province")
                 baseFont = 14;
@@ -159,7 +161,9 @@ function renderDistrictNames(){
             }
             L.marker([centroid[1]+parseFloat(districtname.Y) , centroid[0]+parseFloat(districtname.X)], {
                 icon: L.divIcon({
-                    html: '<span style="font-weight:500; font-size:'+(baseFont+parseInt(districtname.Font_size) )+'px;">'+districtname.District+'</span>'
+                    html: '<span style="font-weight:500; display: inline-block; transform: rotate('+(textTransform+parseInt(districtname.Transform_Angle))+'deg); font-size:'+(baseFont+parseInt(districtname.Font_size) )+'px;">'+districtname.District+'</span>'
+
+                    // html: '<span style="font-weight:500; font-size:'+(baseFont+parseInt(districtname.Font_size) )+'px; transform:'+(rotate(textTransform+parseInt(districtname.Text_Transform)) )+'deg;">'+districtname.District+'</span>'
                 }),
                 opacity: 1,
                 zIndexOffset: 10000     // Make appear above other map features

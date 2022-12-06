@@ -121,7 +121,7 @@
   },
   {
     "ConstCode": 2013,
-    "PageLink": "https://election.onlinekhabar.com/central-chetra/?chetra_map_id=spatari3"
+    "PageLink": "https://election.onlinekhabar.com/central-chetra/?chetra_id=34"
   },
   {
     "ConstCode": 2014,
@@ -145,19 +145,19 @@
   },
   {
     "ConstCode": 2031,
-    "PageLink": "https://election.onlinekhabar.com/central-chetra/?chetra_map_id=dhanusha1"
+    "PageLink": "https://election.onlinekhabar.com/central-chetra/?chetra_id=40"
   },
   {
     "ConstCode": 2032,
-    "PageLink": "https://election.onlinekhabar.com/central-chetra/?chetra_map_id=dhanusha2"
+    "PageLink": "https://election.onlinekhabar.com/central-chetra/?chetra_id=41"
   },
   {
     "ConstCode": 2033,
-    "PageLink": "https://election.onlinekhabar.com/central-chetra/?chetra_map_id=dhanusha3"
+    "PageLink": "https://election.onlinekhabar.com/central-chetra/?chetra_id=42"
   },
   {
     "ConstCode": 2034,
-    "PageLink": "https://election.onlinekhabar.com/central-chetra/?chetra_map_id=dhanusha4"
+    "PageLink": "https://election.onlinekhabar.com/central-chetra/?chetra_id=43"
   },
   {
     "ConstCode": 2041,
@@ -413,7 +413,7 @@
   },
   {
     "ConstCode": 4072,
-    "PageLink": "https://election.onlinekhabar.com/central-chetra/?chetra_map_id=tanahu1"
+    "PageLink": "https://election.onlinekhabar.com/central-chetra/?chetra_map_id=tanahu2"
   },
   {
     "ConstCode": 4081,
@@ -577,7 +577,7 @@
   },
   {
     "ConstCode": 6071,
-    "PageLink": "https://election.onlinekhabar.com/central-chetra/?chetra_map_id=jajrkot1"
+    "PageLink": "https://election.onlinekhabar.com/central-chetra/?chetra_id=167"
   },
   {
     "ConstCode": 6081,
@@ -659,4 +659,4 @@
     "ConstCode": 7093,
     "PageLink": "https://election.onlinekhabar.com/central-chetra/?chetra_map_id=kanchanpur3"
   }
-]
+ ]

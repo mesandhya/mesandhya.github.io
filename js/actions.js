@@ -125,7 +125,7 @@ function applyMapfilter(filter){
 function resetGeoJsons()
 {
     Global.municipalityGeoJson=L.geoJson( GeoJsons.municipality, {
-        onEachFeature: onEachMunicipalitiesFeature,
+        onEachFeature: onEachMunicipalitiesFeature, onEachMunicipalitiesClickFeature,
             style: function(feature){
             
                 return { color: '#9c4228', weight: 0.3,  fillOpacity: 0 };
@@ -133,6 +133,7 @@ function resetGeoJsons()
 
     });
 }
+
 
 async function resetMap(evt) {
 	// $('#provinceSelect').val("");
@@ -221,14 +222,48 @@ async function focusProvince(evt, provinceNumber) {
     
     renderMap();
 }
+
+function test(e)
+{
+    console.log(e)
+    ConstCode = Data.fidCodeMap[e.target.feature.properties.OBJECTID_1];
+    window.location = Data.PhotoLinkPage[ConstCode].PageLink;
+}
+
 function onEachMunicipalitiesFeature(feature, layer) {
   
     layer.on({
       mouseover: highlightMunicipalityFeature,
+      click: test,
       mouseout: resetMunicipalityHighlight,
     });
   
   }
+
+  function onEachMunicipalitiesClickFeature(feature, layer) {
+  
+    layer.on({
+      click: highlightMunicipalityFeature,
+    });
+  
+  }
+
+ 
+// function onEachMunicipalitiesFeature(feature, layer) {
+//     //bind click
+//     layer.on('click', function (e) {
+//       // e = event
+//       console.log(e);
+//       // You can make your ajax call declaration here
+//       //$.ajax(... 
+//     });
+
+// }
+
+// geojson = L.geoJson(highlightMunicipalityFeature, {
+//     style: style,
+//     onEachFeature: onEachMunicipalitiesFeature
+// }).addTo(map);
 
 async function focusDistrict(evt, id) {
     resetMap();

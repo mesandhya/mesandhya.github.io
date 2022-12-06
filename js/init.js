@@ -146,6 +146,11 @@ async function initData(){
         });
     });
     
+    await $.getJSON("json/winpartyid_constcode.json",function(data){
+        data.forEach(function(d){
+            Data.fidCodeMap[d.party_id] = d.ConstCode;
+        });
+    });
 
     await $.getJSON("json/fidcodedistrict.json",function(data){
         data.forEach(function(d){
@@ -309,6 +314,7 @@ function onEachMunicipalityFeature(feature, layer) {
         });
     
 }
+
   
 function onMapClick(e) {
     // alert("hello");

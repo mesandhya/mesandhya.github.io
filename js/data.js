@@ -1,4 +1,4 @@
-var Data = {
+    var Data = {
     PhotoLinkPage: [],
     Parties: [],
     PartiesById: [],
@@ -259,6 +259,19 @@ var provincePopulation = [
 
 class DataLayerClass{
 
+    // getConstituencyNameColor(OBJECTID_1){
+    //     if(!Data.fidCodeMap[OBJECTID_1])
+    //         return "#220000";
+    //     var mayor = Data.Mayors[Data.fidCodeMap[OBJECTID_1]];
+    //     if(!mayor){
+    //         return "#fff";
+    //     }
+    //     if(!Data.PartiesById[mayor['1stPartyID']]){
+    //         return "#2385aa";
+    //     }
+    //     return Data.PartiesById[mayor['1stPartyID']].color_code;
+    // }
+
     getMayorNameColor(OBJECTID_1){
         if(!Data.fidCodeMap[OBJECTID_1])
             return "#220000";
@@ -266,37 +279,37 @@ class DataLayerClass{
         if(!mayor){
             return "#fff";
         }
-        if(!Data.PartiesById[mayor['2074PartyID']]){
+        if(!Data.PartiesById[mayor['1stPartyID']]){
             return "#2385aa";
         }
-        return Data.PartiesById[mayor['2074PartyID']].color_code;
+        return Data.PartiesById[mayor['1stPartyID']].color_code;
     }
 
     getMayorGenderColor(OBJECTID_1){
         var mayor = Data.Mayors[Data.fidCodeMap[OBJECTID_1]];
         if(!mayor)
             return "#fff";
-        if(!Data.PartiesById[mayor['2074PartyID']]){
+        if(!Data.PartiesById[mayor['1stPartyID']]){
             return "#2385aa";
         }
-        return GenderColor[mayor["2074Gender"]];
+        return GenderColor[mayor["1stGender"]];
     }
 
     getMayorAgeColor(OBJECTID_1){
         var mayor = Data.Mayors[Data.fidCodeMap[OBJECTID_1]];
         if(!mayor)
             return "#fff";
-        if(!Data.PartiesById[mayor['2074PartyID']]){
+        if(!Data.PartiesById[mayor['1stPartyID']]){
             return "#2385aa";
         }
-        return AgeBracketColor[mayor["2074AgeBracket"]];
+        return AgeBracketColor[mayor["1stAgeBracket"]];
     }
 
     getMayorMarginColor(OBJECTID_1){
         var mayor = Data.Mayors[Data.fidCodeMap[OBJECTID_1]];
         if(!mayor)
             return "#fff";
-        if(!Data.PartiesById[mayor['2074PartyID']]){
+        if(!Data.PartiesById[mayor['1stPartyID']]){
                 return "#2385aa";
             }
         return getMarginColor(mayor["1stTotalVoteReceived"] - mayor["2ndTotalVoteReceived"]);

@@ -48,20 +48,24 @@ class TemplateClass {
             <div class="row">
               <div class="col-md-3">
                 <img class="candidate_img" src="`
-                + info["body"]["1stPhoto"] +`" />
+      + info["body"]["1stPhoto"] + `" />
               </div>
               <div class="col-md-9 candidate_info">
-                <p class="candidate_name">`+ info["body"]["1stCandidate"]+ `</p>
-                <p class="candidate_party">`+ Data.PartiesById[info["body"]["1stPartyID"]].party_nepali_name +`</p>
+                <p class="candidate_name">`+ info["body"]["1stCandidate"] + `</p>
+                <p class="candidate_party">`+ Data.PartiesById[info["body"]["1stPartyID"]].party_nepali_name + `</p>
               </div>
             </div>
           </div>
           <div>
           <div class="candidate_vote_count">
+          `+ getVictoryIcon("winner") + `
+          <div>
+            `+ toNepaliDigits(info["body"]["1stTotalVoteReceived"]) + `
+          </div>
           ` +
-          ( Data.PartiesById[info["body"]["1stPartyID"]].party_symbol ?
-           `<img class="party_image" src="`+ Data.PartiesById[info["body"]["1stPartyID"]].party_symbol +`">` : "")
-           +`
+      (Data.PartiesById[info["body"]["1stPartyID"]].party_symbol ?
+        `<img class="party_image" src="` + Data.PartiesById[info["body"]["1stPartyID"]].party_symbol + `">` : "")
+      + `
           </div>
         </div>
         </div>
@@ -71,20 +75,24 @@ class TemplateClass {
             <div class="row">
               <div class="col-md-3">
                 <img class="candidate_img" src="`
-                +info["body"]["2ndPhoto"]+`" />
+      + info["body"]["2ndPhoto"] + `" />
               </div>
               <div class="col-md-9 candidate_info">
-                <p class="candidate_name">`+ info["body"]["2ndCandidate"]+ `</p>
-                <p class="candidate_party">`+ Data.PartiesById[info["body"]["2ndPartyID"]].party_nepali_name +`</p>
+                <p class="candidate_name">`+ info["body"]["2ndCandidate"] + `</p>
+                <p class="candidate_party">`+ Data.PartiesById[info["body"]["2ndPartyID"]].party_nepali_name + `</p>
               </div>
             </div>
           </div>
           <div>
           <div class="candidate_vote_count">
+          `+ getVictoryIcon("none") + `
+          <div>
+            `+ toNepaliDigits(info["body"]["1stTotalVoteReceived"]) + `
+          </div>
           ` +
-          ( Data.PartiesById[info["body"]["2ndPartyID"]].party_symbol ?
-           `<img class="party_image" src="`+ Data.PartiesById[info["body"]["2ndPartyID"]].party_symbol +`">` : "")
-           +`
+      (Data.PartiesById[info["body"]["2ndPartyID"]].party_symbol ?
+        `<img class="party_image" src="` + Data.PartiesById[info["body"]["2ndPartyID"]].party_symbol + `">` : "")
+      + `
           </div>
           
         </div>
@@ -93,21 +101,21 @@ class TemplateClass {
         <div class="row-wrap">
          
               <div class="col-md-6">
-                <button class="button" onclick="window.location.href='`+ Data.PhotoLinkPage[info["body"]["ConstCode"]].PageLink +`';">FULL DETAILS
+                <button class="button" onclick="window.location.href='`+ Data.PhotoLinkPage[info["body"]["ConstCode"]].PageLink + `';">FULL DETAILS
                 </button>
               </div>
               
            
-        </div>` 
-
-        
-        
+        </div>`
 
 
-        // <div>
-        //       `+toNepaliDigits(info["body"]["1stTotalVoteReceived"])+`
-        //     </div>
-        //<span>`+toNepaliDigits(info["body"]["1st%Vote"])+`</span>
+
+
+
+    // <div>
+    //       `+toNepaliDigits(info["body"]["1stTotalVoteReceived"])+`
+    //     </div>
+    //<span>`+toNepaliDigits(info["body"]["1st%Vote"])+`</span>
     //     <div>
     //     <div class="candidate_vote_count">
     //       `+ getVictoryIcon("winner") +`
@@ -117,31 +125,31 @@ class TemplateClass {
     //      +`</div>
     // </div>
 
-      // + (info["body"].unopposed ?
-      //   `<div class="text-center" style="margin:10px">` + info["body"].unopposed + `</div>`
-      //   :
-      //   `<div class="row-wrap">
-      //         <div>उम्मेदवार</div>
-      //         <div>
-      //            `+ info["body"]["2ndCandidate"] + ", " + Data.PartiesById[info["body"]["2ndPartyID"]].party_nepali_name + `
-      //         </div>
-      //     </div>
-         
-      //   </div>`
+    // + (info["body"].unopposed ?
+    //   `<div class="text-center" style="margin:10px">` + info["body"].unopposed + `</div>`
+    //   :
+    //   `<div class="row-wrap">
+    //         <div>उम्मेदवार</div>
+    //         <div>
+    //            `+ info["body"]["2ndCandidate"] + ", " + Data.PartiesById[info["body"]["2ndPartyID"]].party_nepali_name + `
+    //         </div>
+    //     </div>
+
+    //   </div>`
 
 
-      // )
-      // + (info["body"].unopposed ?
-      //   `<div class="text-center" style="margin:10px">` + info["body"].unopposed + `</div>`
-      //   :
-      //   `<div class="row-wrap">
-      //         <div>उम्मेदवार</div>
-      //         <div>
-      //            `+ info["body"]["3rdCandidate"] + ", " + Data.PartiesById[info["body"]["3rdPartyID"]].party_nepali_name + `
-      //         </div>
-      //     </div>`
+    // )
+    // + (info["body"].unopposed ?
+    //   `<div class="text-center" style="margin:10px">` + info["body"].unopposed + `</div>`
+    //   :
+    //   `<div class="row-wrap">
+    //         <div>उम्मेदवार</div>
+    //         <div>
+    //            `+ info["body"]["3rdCandidate"] + ", " + Data.PartiesById[info["body"]["3rdPartyID"]].party_nepali_name + `
+    //         </div>
+    //     </div>`
 
-      // );
+    // );
   }
 
   mayor_gender(info) {
@@ -153,9 +161,8 @@ class TemplateClass {
           </div>
         </div>` +
       `<div class="row-wrap">
-          <div>लिङ्ग</div>
-          <div>
-            `+ (info["body"]["1stGender"] == "M" ? "पुरुस" : "महिला") + `
+          <div>लिङ्ग</div> <div> `+ 
+            (info["body"]["1stGender"] == "M" ? "पुरुस" : "महिला") + ` 
           </div>
         </div>`
       + (info["body"].unopposed ?
@@ -168,12 +175,10 @@ class TemplateClass {
               </div>
           </div>` +
         `<div class="row-wrap">
-            <div>लिङ्ग</div>
-            <div>
-              `+ (info["2ndGender"] == "M" ? "पुरुस" : "महिला") + `
-            </div>
-          </div>`
-
+          <div>लिङ्ग</div> <div> `+
+            (info["body"]["2ndGender"] == "M" ? "पुरुस" : "महिला") + ` 
+          </div>
+        </div>`
 
       )
       + (info["body"].unopposed ?
@@ -182,18 +187,16 @@ class TemplateClass {
         `<div class="row-wrap">
               <div>उम्मेदवार</div>
               <div>
-              `+ info["body"]["3rdCandidate"] + " ( " + Data.PartiesById[info["body"]["3rdPartyID"]].party_nepali_name + " )" + `
+              `+ info["body"]["3rdCandidate"] + " ( " + Data.PartiesById[info["body"]["2ndPartyID"]].party_nepali_name + " )" + `
               </div>
           </div>` +
         `<div class="row-wrap">
-            <div>लिङ्ग</div>
-            <div>
-              `+ (info["3rdGender"] == "M" ? "पुरुस" : "महिला") + `
-            </div>
-          </div>`
+          <div>लिङ्ग</div> <div> `+
+            (info["body"]["3rdGender"] == "M" ? "पुरुस" : "महिला") + ` 
+          </div>
+        </div>`
 
       )
-      ;
   }
 
   mayor_age(info) {
@@ -649,3 +652,27 @@ function getPopupBodyDiv(data) {
 //   "41-60": 1,
 //   "60+": 0
 // },
+
+function getVictoryText(w) {
+  if (w == "winner") {
+    return " (विजेता) ";
+  }
+  else if (w == "leading") {
+    return " (अग्रता) ";
+  }
+  else
+    return "";
+}
+
+function getVictoryIcon(w) {
+  if (w == "winner") {
+    return '<img class="victory_icon" src="win-tick.svg" />';
+  }
+  else if (w == "leading") {
+    return '<img class="victory_icon" src="right-up.svg" /> ';
+
+  }
+  else {
+    return "";
+  }
+}

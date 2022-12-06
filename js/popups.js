@@ -87,6 +87,8 @@ var Popups = {
 
 
 
+
+
 function highlightFeature(e) {
   if(Global.currentFilterLevel == "province"){
  
@@ -444,6 +446,7 @@ function getCandidatePopUpDiv(info, feature){
   
   return div;
 }
+
 
 // $.getJSON("NepalGeoJSONFiles/Constituency.geojson",function(data){
 //   L.getJSON(data,{
